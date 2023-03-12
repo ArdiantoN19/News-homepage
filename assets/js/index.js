@@ -6,8 +6,8 @@ hamburgerButton.addEventListener("click", () => {
   navMenu.classList.toggle("active");
   document.body.classList.toggle("backdrop");
   if (navMenu.classList.contains("active")) {
-    iconHamburger.src = "/assets/images/icon-menu-close.svg";
+    iconHamburger.src = "./assets/images/icon-menu-close.svg";
   } else {
-    iconHamburger.src = "/assets/images/icon-menu.svg";
+    iconHamburger.src = "./assets/images/icon-menu.svg";
   }
 });

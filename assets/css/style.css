@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Inter";
-  src: url("/assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype"), url("/assets/fonts/static/Inter-ExtraBold.ttf") format("truetype");
+  src: url("../fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype"),
+    url("../fonts/static/Inter-Bold.ttf") format("truetype");
   font-style: normal;
 }
 *,
@@ -94,7 +95,10 @@ body.backdrop {
   font-weight: 800;
   font-size: 2.5em;
 }
-.hero .hero-introduction .hero-introduction__text .hero-introduction__description {
+.hero
+  .hero-introduction
+  .hero-introduction__text
+  .hero-introduction__description {
   color: hsl(236, 13%, 42%);
   font-size: 15px;
   line-height: 1.5em;
@@ -109,7 +113,10 @@ body.backdrop {
   letter-spacing: 0.3em;
   cursor: pointer;
 }
-.hero .hero-introduction .hero-introduction__text .hero-introduction__btn:hover {
+.hero
+  .hero-introduction
+  .hero-introduction__text
+  .hero-introduction__btn:hover {
   background-color: hsl(240, 100%, 5%);
   color: hsl(36, 100%, 99%);
 }
@@ -170,28 +177,46 @@ body.backdrop {
   gap: 15px;
   font-size: 15px;
 }
-.section-news .section-news__list .section-news__item .section-news__item__image {
+.section-news
+  .section-news__list
+  .section-news__item
+  .section-news__item__image {
   width: 120px;
 }
-.section-news .section-news__list .section-news__item .section-news__item__text {
+.section-news
+  .section-news__list
+  .section-news__item
+  .section-news__item__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 15px;
 }
-.section-news .section-news__list .section-news__item .section-news__item__text__number {
+.section-news
+  .section-news__list
+  .section-news__item
+  .section-news__item__text__number {
   font-size: 2.5em;
   color: hsl(233, 8%, 79%);
 }
-.section-news .section-news__list .section-news__item .section-news__item__text__title {
+.section-news
+  .section-news__list
+  .section-news__item
+  .section-news__item__text__title {
   font-weight: bold;
   cursor: pointer;
   font-size: 1.1em;
 }
-.section-news .section-news__list .section-news__item .section-news__item__text__title:hover {
+.section-news
+  .section-news__list
+  .section-news__item
+  .section-news__item__text__title:hover {
   color: hsl(5, 85%, 63%);
 }
-.section-news .section-news__list .section-news__item .section-news__item__text__description {
+.section-news
+  .section-news__list
+  .section-news__item
+  .section-news__item__text__description {
   color: hsl(236, 13%, 42%);
 }
 
@@ -244,17 +269,28 @@ body.backdrop {
     font-size: 4em;
     font-weight: bolder;
   }
-  .hero .hero-introduction .hero-introduction__text .hero-introduction__summary {
+  .hero
+    .hero-introduction
+    .hero-introduction__text
+    .hero-introduction__summary {
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 50px;
     width: 100%;
   }
-  .hero .hero-introduction .hero-introduction__text .hero-introduction__summary .hero-introduction__description {
+  .hero
+    .hero-introduction
+    .hero-introduction__text
+    .hero-introduction__summary
+    .hero-introduction__description {
     font-size: 1.1em;
   }
-  .hero .hero-introduction .hero-introduction__text .hero-introduction__summary .hero-introduction__btn {
+  .hero
+    .hero-introduction
+    .hero-introduction__text
+    .hero-introduction__summary
+    .hero-introduction__btn {
     width: 230px;
     padding: 20px;
   }
@@ -275,13 +311,24 @@ body.backdrop {
     display: flex;
     flex-direction: row;
   }
-  .section-news .section-news__list .section-news__item .section-news__item__image {
+  .section-news
+    .section-news__list
+    .section-news__item
+    .section-news__item__image {
     width: 130px;
   }
-  .section-news .section-news__list .section-news__item .section-news__item__text .section-news__item__text__number {
+  .section-news
+    .section-news__list
+    .section-news__item
+    .section-news__item__text
+    .section-news__item__text__number {
     font-size: 3.5em;
   }
-  .section-news .section-news__list .section-news__item .section-news__item__text .section-news__item__text__title {
+  .section-news
+    .section-news__list
+    .section-news__item
+    .section-news__item__text
+    .section-news__item__text__title {
     font-size: 1.6em;
   }
 }
